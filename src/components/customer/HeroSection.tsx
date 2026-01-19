@@ -97,11 +97,11 @@ export function HeroSection() {
                     <div className="absolute inset-0 flex items-center justify-center text-center p-4">
                         {slide.title && (
                             <div className="max-w-3xl transform transition-all duration-700 translate-y-0 opacity-100">
-                                <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-md">
+                                <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold text-white mb-4 sm:mb-6 drop-shadow-md px-2">
                                     {slide.title}
                                 </h1>
                                 {slide.subtitle && (
-                                    <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto drop-shadow-sm">
+                                    <p className="text-sm sm:text-xl md:text-2xl text-white/90 mb-6 sm:mb-8 max-w-2xl mx-auto drop-shadow-sm px-4 line-clamp-2 sm:line-clamp-none">
                                         {slide.subtitle}
                                     </p>
                                 )}
@@ -109,7 +109,7 @@ export function HeroSection() {
                                     <Link href={slide.ctaLink}>
                                         <Button
                                             size="lg"
-                                            className="bg-[#D4A574] hover:bg-[#c29668] text-white border-none rounded-full px-8 py-6 text-lg font-medium transition-all hover:scale-105 shadow-lg"
+                                            className="bg-[#D4A574] hover:bg-[#c29668] text-white border-none rounded-full px-6 py-4 sm:px-8 sm:py-6 text-sm sm:text-lg font-medium transition-all hover:scale-105 shadow-lg"
                                         >
                                             {slide.ctaText}
                                         </Button>
