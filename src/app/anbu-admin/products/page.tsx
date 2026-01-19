@@ -26,7 +26,7 @@ export default function ProductsPage() {
         try {
             const res = await fetch('/api/products?admin=true');
             const data = await res.json();
-            setProducts(data);
+            setProducts(data.products || []);
         } catch (error) {
             console.error('Failed to fetch products');
         } finally {
