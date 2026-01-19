@@ -87,6 +87,7 @@ export function HeroSection() {
                         fill
                         className="object-cover"
                         priority={index === 0}
+                        unoptimized={slide.imageUrl.endsWith('.svg') || slide.imageUrl.includes('placehold.co')} // Fix for SVG error
                     />
                     {/* Dark overlay for better text readability */}
                     {slide.title && (

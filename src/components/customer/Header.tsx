@@ -30,9 +30,9 @@ export function Header() {
                             <Image
                                 src="/logo.png"
                                 alt="Anbu.lk Logo"
-                                width={240}
-                                height={80}
-                                className="h-10 md:h-20 w-auto object-contain scale-100 md:scale-150"
+                                width={180}
+                                height={60}
+                                className="h-10 md:h-12 w-auto object-contain"
                                 priority
                             />
                         </Link>
