@@ -56,7 +56,7 @@ export function ProductCard({ product }: ProductCardProps) {
                         <h3 className="font-semibold text-xs md:text-lg mb-1 group-hover:text-[#D4A574] transition-colors line-clamp-2 md:line-clamp-1 leading-tight md:leading-normal">
                             {product.name}
                         </h3>
-                        <p className="text-gray-500 text-sm mb-3 line-clamp-2 hidden md:block">
+                        <p className="text-gray-500 text-sm mb-3 line-clamp-2">
                             {product.description}
                         </p>
                     </div>
